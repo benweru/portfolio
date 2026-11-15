@@ -3775,9 +3775,8 @@ img.u-pull-left {
 .folio-list__item--landscape .folio-list__item-pic img {
   width: 100%;
   height: auto;
-  object-fit: contain;
-  object-position: center;
-  background-color: #fff8ec;
+  object-fit: unset;
+  object-position: unset;
 }
 
 .folio-list__item--landscape .folio-list__item-text {
@@ -3935,8 +3934,7 @@ img.u-pull-left {
   display: block;
   width: 100%;
   height: auto;
-  object-fit: contain;
-  background-color: #fff8ec;
+  object-fit: unset;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
 
