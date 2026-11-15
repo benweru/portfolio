@@ -322,6 +322,29 @@
 
               <ul class="folio-list row block-lg-one-half block-stack-on-1000">
                 <li class="folio-list__item column" data-animate-el>
+                  <a class="folio-list__item-link" href="#modal-06">
+                    <div class="folio-list__item-pic">
+                      <img
+                        src="assets/images/bedsense-160.webp"
+                        srcset="assets/images/bedsense-160.webp 160w, assets/images/bedsense-320.webp 320w, assets/images/bedsense-720.webp 720w"
+                        sizes="(max-width: 400px) 92vw, 160px"
+                        width="160"
+                        height="160"
+                        loading="lazy"
+                        decoding="async"
+                        alt="BedSense"
+                      />
+                    </div>
+                    <div class="folio-list__item-text">
+                      <div class="folio-list__item-cat">Computer Vision + Agritech</div>
+                      <div class="folio-list__item-title">
+                        BedSense
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="folio-list__item column" data-animate-el>
                   <a class="folio-list__item-link" href="#modal-05">
                     <div class="folio-list__item-pic">
                       <img
@@ -438,6 +461,49 @@
               </ul>
             </div>
           </div>
+
+          <dialog id="modal-06" class="project-dialog" aria-labelledby="modal-06-title">
+            <div class="modal-popup">
+              <button type="button" class="project-dialog__close" aria-label="Close"></button>
+              <div class="modal-popup__desc">
+                <h3 id="modal-06-title">BedSense (Meta Global AI Hackathon)</h3>
+                <p>
+                  Photo-based crop analysis for Kenyan farmers and the extension
+                  officers who walk farm beds with them. Photograph a plant —
+                  BedSense names it from the photo and, when a symptom is visible,
+                  returns likely causes, practical mitigation, and three next
+                  checks, in English or Kiswahili. Built with Ian Karanja on Meta
+                  SAM and Muse Spark for the Cerebral Valley Meta Global AI
+                  Developer Hackathon (Indie track); when a spray is the usual
+                  next step, the result shows example Kenyan agrovet shops and
+                  KES price bands. The live site now runs in demo mode.
+                </p>
+                <ul class="modal-popup__cat">
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>Meta SAM</li>
+                  <li>Muse Spark</li>
+                  <li>Supabase</li>
+                </ul>
+              </div>
+              <div class="modal-popup__links">
+                <a
+                  href="https://bedsense.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn--primary btn--medium"
+                  >Live demo</a
+                >
+                <a
+                  href="https://github.com/benweru/BedSense"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn--stroke btn--medium"
+                  >View Repo</a
+                >
+              </div>
+            </div>
+          </dialog>
 
           <dialog id="modal-05" class="project-dialog" aria-labelledby="modal-05-title">
             <div class="modal-popup">
