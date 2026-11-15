@@ -3909,6 +3909,14 @@ img.u-pull-left {
   color: var(--color-1); /* Highlight title */
 }
 
+.modal-popup__media {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #fff8ec;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
 .modal-popup__desc {
   padding: var(--vspace-1_5) var(--vspace-2);
 }
