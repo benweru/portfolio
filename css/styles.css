@@ -3762,27 +3762,6 @@ img.u-pull-left {
   margin: 0;
 }
 
-.folio-list__item--landscape .folio-list__item-link {
-  padding-left: 0;
-}
-
-.folio-list__item--landscape .folio-list__item-pic {
-  position: relative;
-  display: block;
-  margin-bottom: var(--vspace-0_5);
-}
-
-.folio-list__item--landscape .folio-list__item-pic img {
-  width: 100%;
-  height: auto;
-  object-fit: unset;
-  object-position: unset;
-}
-
-.folio-list__item--landscape .folio-list__item-text {
-  min-height: 0;
-}
-
 .folio-list__item-pic::before,
 .folio-list__item-pic::after {
   transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
