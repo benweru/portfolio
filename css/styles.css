@@ -3762,6 +3762,13 @@ img.u-pull-left {
   margin: 0;
 }
 
+/* Keep the BedSense left thumb the same size as other cards, but show
+   the full landscape wordmark inside that square (no cover-crop). */
+.folio-list__item--wordmark .folio-list__item-pic img {
+  object-fit: contain;
+  background-color: #fff8ec;
+}
+
 .folio-list__item-pic::before,
 .folio-list__item-pic::after {
   transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
